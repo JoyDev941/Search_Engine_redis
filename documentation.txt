@@ -1,0 +1,44 @@
+Search Engine Project.
+
+This project revolves around creating a efficient search engine, which is capable to find file
+locations, for user confort. 
+
+It aims to highlight my skills as a developer and teach me how to deal with the upcomming
+challenges.
+
+26/08/2025
+In terms of what I have learnt since yesterday, the python redis library must be installed in
+the bash terminal. However, redis is a linux native library, therefore I needed to install a
+linux distribution.
+
+I opted to use the WSL subsytem linux, however, due to compatibility issues and lack of storage,
+I required an alternative way to run redis-server.
+
+I found a old computer, that barely ran windows 11 at acceptable performance. I downloaded and
+flashed a copy of the ubuntu server in a flash storage drive. The ubuntu server package is
+lightweight and highly functional. Installing 3rd party drivers for the internet module and the
+processor was fairly easy as well.
+
+A challenge occured, where typing commands in terminal took extremely long and connecting to my
+Github account was becoming a hassle. The solution I came up with was to install remote ssh,
+and connect from my previous computer system thorugh terminal.
+
+A multitude of benefits:
+
+-access to copy and paste function
+
+-ability to multitask in terms of documentation
+
+-use AI to boost my productivity.
+
+-due to the low power consumption, i can run it 24/7
+
+-connecting to Github became very easy
+
+but i ran into a different problem, to run any python file, i required to run it in a virtual 
+environment. at first i assumed the issue was related due to me remote terminal. However, I 
+discovered that was not the case because the same error happened when i was using the machine.
+
+So I read trhough the documentation provided online and used venv to create a local environment.
+I installed pandas, redis and a few more libraries and softwares. And was able to write my first 
+script, and run it in the redis server. It was successfull.

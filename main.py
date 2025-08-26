@@ -1,18 +1,7 @@
 import redis
 
-r = redis.Redis(host='localhost', port=6379, decode_responses=True)
-r.set('foo', 'bar')
-# True
-r.get('foo')
-# bar
-r.hset('user-session:123', mapping={
-    'name': 'John',
-    "surname": 'Smith',
-    "company": 'Redis',
-    "age": 29
-})
-# True
+r = redis.Redis(decode_responses=True)
 
-r.hgetall('user-session:123')
-# {'surname': 'Smith', 'name': 'John', 'company': 'Redis', 'age': '29'}
+r.set('food', 'Fried chicken') #food stores Fried chicken
 
+r.close()
